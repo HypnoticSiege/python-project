@@ -14,6 +14,8 @@ r, g, b = colors
 
 def color():
     print(r + ", " + g + ", " + b)
+    global awesome
+    awesome = "Colors are awesome"
 
 
 def main():
@@ -22,3 +24,4 @@ def main():
 
 main()
 color()
+print(awesome)
